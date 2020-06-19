@@ -8,6 +8,14 @@ body {
   font-weight: 400;
 }
 
+.button {
+  outline: none;
+}
+  
+.input {
+  outline: none;
+}
+
 .header {
   display: -webkit-box;
   display: -ms-flexbox;
