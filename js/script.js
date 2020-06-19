@@ -7,8 +7,22 @@ let creators = document.querySelector(".creators");
 let creatorCards = document.querySelector(".cards-creator");
 let actorCards = document.querySelector(".cards");
 let actors = document.querySelector(".actor");
+let search = document.querySelector(".search");
 menu.addEventListener("click", () => {
   menu.classList.toggle("active");
+  const menuBtn = event.target.closest(".active");
+  if (!menuBtn) {
+    menu.src = "img/menu.svg";
+    openMenu.classList.remove("open");
+    document.body.style.overflow = "";
+  } else {
+    menu.src = "img/menu2.svg";
+    openMenu.classList.add("open");
+    document.body.style.overflow = "hidden";
+  }
+});
+search.addEventListener("click", () => {
+  search.classList.toggle("active");
   const menuBtn = event.target.closest(".active");
   if (!menuBtn) {
     menu.src = "img/menu.svg";
