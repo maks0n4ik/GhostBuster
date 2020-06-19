@@ -91,7 +91,7 @@ input {
   border: none;
   border-radius: 5px;
   margin: 0;
-  margin-bottom: 100px;
+  margin-bottom: 50px;
   padding: 14px 49px;
 }
 
@@ -481,7 +481,6 @@ input {
 .openmenu {
   background: #5671f6;
   height: 100vh;
-  padding: 132px 134px;
   -webkit-transform: translateX(100%);
   transform: translateX(100%);
   position: fixed;
